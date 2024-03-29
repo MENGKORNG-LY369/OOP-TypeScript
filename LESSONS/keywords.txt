@@ -1,0 +1,15 @@
+- There are 4 features of OOP:
+	+ encapsulation
+	+ inheritance
+	+ polymorphism
+	+ abstraction
+
+- Class in TypeScript can also include the properties, methods, and constructor logic.	
+
+- Constructor is a special function or method that exists inside a class, that is called only once when the object is created. 
+Constructor គឺជាមុខងារពិសេស ឬ method ដែលមាននៅក្នុង class ដែលត្រូវបានហៅតែម្តងគត់នៅពេលដែល object ត្រូវបានបង្កើត។
+
+- aggregation refers to the process of combining multiple objects or data sets into a single, unified result.
+ការប្រមូលផ្តុំសំដៅទៅលើដំណើរការនៃការរួមបញ្ចូលគ្នានូវវត្ថុជាច្រើន ឬសំណុំទិន្នន័យទៅជាលទ្ធផលតែមួយ។
+
+- 
