@@ -1,0 +1,6 @@
+Install Typescript globally
+	- npm install -g typescript
+
+Allow scripts to execute
+	- Set-ExecutionPolicy -Scope CurrentUser Unrestricted
+

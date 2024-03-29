@@ -1,0 +1,15 @@
+{
+  "name": "actives",
+  "version": "1.0.0",
+  "description": "",
+  "main": "School.js",
+  "scripts": {
+    "start": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}
