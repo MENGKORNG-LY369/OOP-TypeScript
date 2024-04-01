@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Customer_1 = require("./Store/Customer");
+var Feedback_1 = require("./Store/Feedback");
+var Product_1 = require("./Store/Product");
+var Store_1 = require("./Store/Store");
+// PNC storage
+var pncStorage = new Store_1.Store("PNC Storage", 7, 12);
+var customer1 = new Customer_1.Customer("Mengkorng", "Ly");
+var product1 = new Product_1.Product("Yoyo", 20, 100);
+var product2 = new Product_1.Product("Book", 10, 100);
+var feedback1 = new Feedback_1.Feedback("Good product", 100);
+var feedback2 = new Feedback_1.Feedback("Not good enough!", 50);
+feedback1.addCustomer(customer1);
+feedback2.addCustomer(customer1);
+product1.addFeedback(feedback1);
+product2.addFeedback(feedback2);
+pncStorage.addProduct(product1);
+pncStorage.addProduct(product2);
+pncStorage.addCustomer(customer1);
+console.log(pncStorage.getFeedbackCOntaining("Not good enough!"));

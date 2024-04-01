@@ -15,4 +15,8 @@ export class Product {
     addFeedback(feedback: Feedback) {
         this.feedback.push(feedback);
     }
+
+    getFeedback(keyword: string): Feedback[] {
+        return this.feedback.filter(feedback => feedback.comment == keyword);
+    }
 }
