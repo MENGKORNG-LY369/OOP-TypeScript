@@ -1,3 +1,4 @@
+import { Class } from "./Class";
 
 export class Teacher {
     constructor(
@@ -13,7 +14,7 @@ export class Teacher {
         this.age = age;
     }
 
-    greeter() {
+    greeter() : object {
         return { firstName: this.firstName, lastName: this.lastName, email: this.email, age: this.age };
     }
 }
@@ -23,8 +24,22 @@ export class Student {
         public firstName: string,
         public lastName: string, 
         public email: string,
-        public age: number
-        ) {
+        public age: number,
+        public Studentclass: Class[] = []
+        ) 
+    {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.email = email;
+        this.age = age;
+        this.Studentclass = Studentclass;
+    }
+
+    setClass(Studentclass: Class) {
+        this.Studentclass.push(Studentclass);
+    }
+
+    greeter() : object {
+        return { firstName: this.firstName, lastName: this.lastName, email: this.email, age: this.age, Studentclass: this.Studentclass };
     }
 }
-

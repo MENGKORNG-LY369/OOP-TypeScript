@@ -1,7 +1,7 @@
-import Customer from "./Bus trip/Customer";
-import  Trip from "./Bus trip/Trip";
-import Address from "./Bus trip/Address";
-import DateTime from "./Bus trip/DateTime";
+import Customer from "./Customer";
+import  Trip from "./Trip";
+import Address from "./Address";
+import DateTime from "./DateTime";
 
 // Customer 1
 const customer1 = new Customer("Mengkorg", "mengkorng.ly@gmail.com", 19, "2345452384");
